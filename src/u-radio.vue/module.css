@@ -1,0 +1,22 @@
+.root {
+    user-select: none;
+    cursor: $cursor-pointer;
+}
+
+.radio {
+    margin-right: 4px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+.radio[disabled] {
+    cursor: $cursor-not-allowed;
+}
+
+.root:focus {
+    outline: $focus-outline;
+}
+
+.root[disabled] {
+    color: #999;
+    cursor: $cursor-not-allowed;
+}
